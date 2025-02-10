@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-import PageTimer from "./timePage/PageTime"
+import PageTimer from "./timePage/PageTime.tsx"
 
 const router =createBrowserRouter([
   {

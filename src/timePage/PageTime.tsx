@@ -1,5 +1,5 @@
-import Card from "../Components/Card";
-import Timer from "../Components/Timer";
+import Card from "../Components/Card.tsx";
+import Timer from "../Components/Timer.tsx";
 
 const Page=()=>{
     return(

@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Timer=()=>{
   const countDownDate = new Date("Feb 14, 2025 11:00:00").getTime();
-  const [result,setResult]=useState()
+  const [result,setResult]=useState(" ")
   var x = setInterval(function() {
       const now = new Date().getTime() 
       let distance = countDownDate - now;

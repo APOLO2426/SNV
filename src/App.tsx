@@ -1,7 +1,7 @@
 'use client';
 import './App.css'
 import { useState } from "react";
-import Button from  './Components/Button';
+import Button from  './Components/Button.tsx';
 import { Navigate } from 'react-router-dom';
 import SN from './assets/SN.jpg'
 
@@ -10,8 +10,9 @@ export default function App() {
   const [password,setPassword]=useState("")
   const[isAuth,setAuth]=useState(false)
 
-  const buttonOnClick=(event)=>{
-    setPassword(password+event.target.innerText)
+  const buttonOnClick=(event: React.MouseEvent<HTMLButtonElement>)=>{
+    const target = event.target as HTMLInputElement;
+    setPassword(password+target.innerText)
   } 
   const verifit=()=>{
     if(password==passKey){
