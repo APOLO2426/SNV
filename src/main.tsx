@@ -7,12 +7,12 @@ import ErrorPage from './ErrorPage.tsx'
 
 const router =createBrowserRouter([
   {
-    path:'/',
+    path:'/SNV',
     element:<App />,
     errorElement: <ErrorPage />
   },
   {
-    path:'/p',
+    path:'/SNV/p',
     element:<PageTimer/>,
     errorElement: <ErrorPage />
   }
