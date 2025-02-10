@@ -25,7 +25,7 @@ export default function App() {
   }
 }
 if(isAuth){
-  return <Navigate to="/p"/>
+  return <Navigate to="/SNV/p"/>
 }
 return(
   <div className="flex items-center justify-center p-20">
