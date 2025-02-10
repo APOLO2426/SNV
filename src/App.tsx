@@ -6,7 +6,7 @@ import { Navigate } from 'react-router-dom';
 import SN from './assets/SN.jpg'
 
 export default function App() {
-  const passKey="123"
+  const passKey="1"
   const [password,setPassword]=useState("")
   const[isAuth,setAuth]=useState(false)
 
